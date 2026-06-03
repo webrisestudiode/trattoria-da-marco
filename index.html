@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trattoria da Marco – Cucina italiana in München</title>
+  <meta name="description" content="Trattoria da Marco – authentische italienische Küche nach Familienrezepten aus Kampanien. Besuchen Sie uns in München. Tisch reservieren." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Trattoria da Marco – Cucina italiana in München" />
+  <meta property="og:description" content="Authentische italienische Küche nach Nonna-Rezepten aus Kampanien. Seit 1998 in München." />
+  <meta property="og:url" content="https://webrisestudiode.github.io/trattoria-da-marco/" />
+  <meta property="og:image" content="https://webrisestudiode.github.io/trattoria-da-marco/og-image.jpg" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:site_name" content="Trattoria da Marco" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://webrisestudiode.github.io/trattoria-da-marco/" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Schema.org LocalBusiness JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Trattoria da Marco",
+    "description": "Authentische italienische Küche nach Familienrezepten aus Kampanien. Seit 1998 in München.",
+    "url": "https://webrisestudiode.github.io/trattoria-da-marco/",
+    "telephone": "+4989123456 78",
+    "email": "info@trattoria-da-marco.de",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via della Pasta 12",
+      "postalCode": "80331",
+      "addressLocality": "München",
+      "addressCountry": "DE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1351,
+      "longitude": 11.5820
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "12:00",
+        "closes": "14:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "18:00",
+        "closes": "22:30"
+      }
+    ],
+    "servesCuisine": "Italian",
+    "priceRange": "€€",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": "Cash, Credit Card",
+    "image": "https://webrisestudiode.github.io/trattoria-da-marco/og-image.jpg",
+    "founder": {
+      "@type": "Person",
+      "name": "Marco Ricci"
+    },
+    "foundingDate": "1998"
+  }
+  </script>
+
+  <!-- Personalized Banner Activation (inline) -->
+  <script>
+    (function(){
+      var p = new URLSearchParams(window.location.search),
+          f = p.get('firma'),
+          n = p.get('name');
+      if (f && n) {
+        document.addEventListener('DOMContentLoaded', function() {
+          var b = document.getElementById('personalized-banner'),
+              nameEl = document.getElementById('banner-name');
+          if (b && nameEl) {
+            nameEl.textContent = n;
+            b.style.display = 'block';
+          }
+        });
+      }
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Personalized Banner -->
+  <div id="personalized-banner">
+    Guten Tag Herr <strong id="banner-name"></strong>
+    <span class="banner-dot">·</span>
+    so könnte Ihre Website aussehen
+    <span class="banner-dot">·</span>
+    Alle Inhalte sind Beispieldaten
+  </div>
+
+  <!-- Cookie Banner -->
+  <div id="cookie-banner" role="dialog" aria-label="Cookie-Hinweis">
+    <div class="cookie-inner">
+      <p>
+        Diese Website verwendet Cookies, um Ihr Erlebnis zu verbessern.
+        Durch die weitere Nutzung stimmen Sie der Verwendung von Cookies gemäß unserer
+        <a href="#">Datenschutzerklärung</a> zu.
+      </p>
+      <button id="cookie-accept">Akzeptieren</button>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Hauptnavigation">
+    <div class="container">
+      <a href="index.html" class="nav-brand" aria-label="Trattoria da Marco – Startseite">
+        <span class="brand-main">Trattoria da Marco</span>
+        <span class="brand-sub">Ristorante &amp; Trattoria</span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="speisekarte.html">Speisekarte</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="kontakt.html#reservierung" class="nav-cta">Reservieren</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" role="dialog" aria-label="Mobilmenü">
+    <a href="index.html">Home</a>
+    <a href="speisekarte.html">Speisekarte</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="kontakt.html#reservierung" class="mobile-cta">Tisch reservieren</a>
+  </div>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-label="Willkommen">
+      <div class="hero-texture" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="hero-ornament" aria-hidden="true">
+          <span></span>
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 1L10.5 6.5H16L11.5 9.5L13 15L9 12L5 15L6.5 9.5L2 6.5H7.5L9 1Z" fill="#D4AC0D" opacity="0.8"/>
+          </svg>
+          <span></span>
+        </div>
+        <p class="hero-eyebrow">München · Seit 1998</p>
+        <h1>Trattoria<br /><em>da Marco</em></h1>
+        <p class="hero-tagline">Cucina italiana – wie bei Nonna</p>
+        <div class="hero-actions">
+          <a href="kontakt.html#reservierung" class="btn btn-primary">Tisch reservieren</a>
+          <a href="speisekarte.html" class="btn btn-outline">Zur Speisekarte</a>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span>Entdecken</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- ===================== ÜBER UNS ===================== -->
+    <section class="about section" id="ueber-uns" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-inner">
+          <div class="about-visual reveal">
+            <div class="about-img-frame">
+              <div class="about-img-placeholder" aria-hidden="true">
+                <div class="plate-icon">🍝</div>
+                <p>Foto · Trattoria da Marco</p>
+              </div>
+            </div>
+            <div class="about-badge" aria-label="Seit 1998">
+              <span class="badge-num">27</span>
+              <span class="badge-text">Jahre</span>
+            </div>
+          </div>
+          <div class="about-text">
+            <span class="section-label reveal">Unsere Geschichte</span>
+            <h2 id="about-heading" class="reveal">Cucina di famiglia<br />aus Kampanien</h2>
+            <div class="divider divider--left reveal" aria-hidden="true"></div>
+            <p class="reveal reveal-delay-1">
+              Als Marco Ricci 1998 seine Trattoria in München eröffnete, hatte er nur eines im Sinn:
+              die Rezepte seiner Nonna aus dem Herzen Kampaniens in die bayrische Hauptstadt zu bringen.
+              Kein Schnickschnack, keine Fusionsküche – nur ehrliche, herzhafte Cucina italiana.
+            </p>
+            <p class="reveal reveal-delay-2">
+              Bis heute werden dieselben Grundzutaten verwendet, die Marco einst auf dem Markt in Neapel
+              kaufte: San-Marzano-Tomaten, feinstes Olivenöl extra vergine, hausgemachte Pasta und der
+              unverwechselbare Büffelmozzarella aus der Campania Felix.
+            </p>
+            <p class="reveal reveal-delay-3">
+              Unser Restaurant ist ein Ort der Wärme und Gastfreundschaft. Ob romantisches Dinner zu zweit,
+              Familienfeier oder einfach ein gutes Glas Wein nach der Arbeit – bei uns fühlen Sie sich
+              wie zu Hause in Italien.
+            </p>
+            <div class="about-signature reveal reveal-delay-4">
+              Marco Ricci
+              <span>Patron &amp; Küchenchef</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SIGNATURE DISHES ===================== -->
+    <section class="dishes section" id="gerichte" aria-labelledby="dishes-heading">
+      <div class="container text-center">
+        <span class="section-label reveal">Unsere Küche</span>
+        <h2 id="dishes-heading" class="section-title reveal">Signature-Gerichte</h2>
+        <div class="divider reveal" aria-hidden="true"></div>
+        <p class="section-subtitle reveal">
+          Drei Klassiker, die seit Jahrzehnten auf unserer Karte stehen –
+          weil manche Dinge einfach perfekt sind.
+        </p>
+        <div class="dishes-grid">
+
+          <article class="dish-card reveal reveal-delay-1">
+            <div class="dish-card-img" aria-hidden="true">🍝</div>
+            <div class="dish-card-body">
+              <p class="dish-category">Primi Piatti</p>
+              <h3>Spaghetti al Ragù di Nonna</h3>
+              <p>
+                Langsam geschmortes Rindfleisch mit San-Marzano-Tomaten, frischem Basilikum
+                und einem Hauch Rotwein – so wie es Nonna gemacht hätte.
+              </p>
+              <span class="dish-price">€ 16,50</span>
+            </div>
+          </article>
+
+          <article class="dish-card reveal reveal-delay-2">
+            <div class="dish-card-img" aria-hidden="true">🐟</div>
+            <div class="dish-card-body">
+              <p class="dish-category">Secondi Piatti</p>
+              <h3>Branzino all'Acqua Pazza</h3>
+              <p>
+                Wolfsbarsch in einem aromatischen Sud aus Kirschtomaten, Knoblauch,
+                weißem Wein und Petersilie – zart, leicht und unwiderstehlich.
+              </p>
+              <span class="dish-price">€ 26,00</span>
+            </div>
+          </article>
+
+          <article class="dish-card reveal reveal-delay-3">
+            <div class="dish-card-img" aria-hidden="true">🍮</div>
+            <div class="dish-card-body">
+              <p class="dish-category">Dolci</p>
+              <h3>Tiramisù della Casa</h3>
+              <p>
+                Unser hausgemachtes Tiramisù nach Marcos persönlichem Originalrezept –
+                mit Mascarpone, Savoiardi-Löffelbiskuits und echtem Espresso. Ogni giorno fresco.
+              </p>
+              <span class="dish-price">€ 8,50</span>
+            </div>
+          </article>
+
+        </div>
+        <div class="text-center" style="margin-top: 3rem;">
+          <a href="speisekarte.html" class="btn btn-gold reveal">Zur vollständigen Speisekarte</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ÖFFNUNGSZEITEN & LAGE ===================== -->
+    <section class="info-section section" id="info" aria-labelledby="info-heading">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 3rem;">
+          <span class="section-label reveal">Besuchen Sie uns</span>
+          <h2 id="info-heading" class="section-title reveal">Öffnungszeiten &amp; Lage</h2>
+          <div class="divider reveal" aria-hidden="true"></div>
+        </div>
+        <div class="info-grid">
+
+          <div class="info-block reveal">
+            <h3>Öffnungszeiten</h3>
+            <table class="hours-table" aria-label="Öffnungszeiten">
+              <tbody>
+                <tr>
+                  <td>Montag – Freitag</td>
+                  <td>12:00 – 14:00 Uhr &amp; 18:00 – 22:30 Uhr</td>
+                </tr>
+                <tr>
+                  <td>Samstag</td>
+                  <td>12:00 – 14:00 Uhr &amp; 18:00 – 22:30 Uhr</td>
+                </tr>
+                <tr>
+                  <td>Sonntag</td>
+                  <td class="closed">Geschlossen</td>
+                </tr>
+              </tbody>
+            </table>
+            <p style="margin-top: 1.25rem; font-size: 0.88rem; font-style: italic;">
+              An Feiertagen können die Öffnungszeiten abweichen. Bitte rufen Sie uns an.
+            </p>
+          </div>
+
+          <div class="info-block address-block reveal reveal-delay-2">
+            <h3>Adresse &amp; Kontakt</h3>
+            <address>
+              <p>
+                Via della Pasta 12<br />
+                80331 München<br /><br />
+                <a href="tel:+4989123456 78" class="phone-link">089 123 456 78</a><br />
+                <a href="mailto:info@trattoria-da-marco.de" class="email-link">info@trattoria-da-marco.de</a>
+              </p>
+            </address>
+            <div style="margin-top: 2rem;">
+              <a href="kontakt.html#reservierung" class="btn btn-primary">Tisch reservieren</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="brand-name">Trattoria da Marco</span>
+          <span class="brand-tagline">Cucina italiana – wie bei Nonna</span>
+          <p>
+            Authentische italienische Küche nach Familienrezepten aus Kampanien.
+            Herzlich willkommen in unserem Restaurant in München.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="speisekarte.html">Speisekarte</a></li>
+            <li><a href="kontakt.html">Kontakt &amp; Reservierung</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <address>
+            Via della Pasta 12<br />
+            80331 München<br /><br />
+            <a href="tel:+4989123456 78">089 123 456 78</a><br />
+            <a href="mailto:info@trattoria-da-marco.de">info@trattoria-da-marco.de</a>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Trattoria da Marco. Dies ist eine Beispiel-Website erstellt von <a href="https://webrisestudio.de">Webrise Studio</a>.</p>
+        <p><a href="#">Impressum</a> &nbsp;|&nbsp; <a href="#">Datenschutz</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://webrisestudiode.github.io/trattoria-da-marco/sitemap.xml

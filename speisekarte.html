@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Speisekarte – Trattoria da Marco München</title>
+  <meta name="description" content="Unsere Speisekarte: Antipasti, Primi Piatti, Secondi Piatti, Dolci und Getränke. Authentische italienische Küche der Trattoria da Marco in München." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Speisekarte – Trattoria da Marco München" />
+  <meta property="og:description" content="Antipasti, Pasta, Secondi, Dolci und erlesene Weine. Entdecken Sie unsere Speisekarte." />
+  <meta property="og:url" content="https://webrisestudiode.github.io/trattoria-da-marco/speisekarte.html" />
+  <meta property="og:image" content="https://webrisestudiode.github.io/trattoria-da-marco/og-image.jpg" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:site_name" content="Trattoria da Marco" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://webrisestudiode.github.io/trattoria-da-marco/speisekarte.html" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Personalized Banner Activation (inline) -->
+  <script>
+    (function(){
+      var p = new URLSearchParams(window.location.search),
+          f = p.get('firma'),
+          n = p.get('name');
+      if (f && n) {
+        document.addEventListener('DOMContentLoaded', function() {
+          var b = document.getElementById('personalized-banner'),
+              nameEl = document.getElementById('banner-name');
+          if (b && nameEl) {
+            nameEl.textContent = n;
+            b.style.display = 'block';
+          }
+        });
+      }
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Personalized Banner -->
+  <div id="personalized-banner">
+    Guten Tag Herr <strong id="banner-name"></strong>
+    <span class="banner-dot">·</span>
+    so könnte Ihre Website aussehen
+    <span class="banner-dot">·</span>
+    Alle Inhalte sind Beispieldaten
+  </div>
+
+  <!-- Cookie Banner -->
+  <div id="cookie-banner" role="dialog" aria-label="Cookie-Hinweis">
+    <div class="cookie-inner">
+      <p>
+        Diese Website verwendet Cookies, um Ihr Erlebnis zu verbessern.
+        Durch die weitere Nutzung stimmen Sie der Verwendung von Cookies gemäß unserer
+        <a href="#">Datenschutzerklärung</a> zu.
+      </p>
+      <button id="cookie-accept">Akzeptieren</button>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Hauptnavigation">
+    <div class="container">
+      <a href="index.html" class="nav-brand" aria-label="Trattoria da Marco – Startseite">
+        <span class="brand-main">Trattoria da Marco</span>
+        <span class="brand-sub">Ristorante &amp; Trattoria</span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="speisekarte.html" class="active">Speisekarte</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="kontakt.html#reservierung" class="nav-cta">Reservieren</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" role="dialog" aria-label="Mobilmenü">
+    <a href="index.html">Home</a>
+    <a href="speisekarte.html">Speisekarte</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="kontakt.html#reservierung" class="mobile-cta">Tisch reservieren</a>
+  </div>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero" aria-label="Speisekarte">
+      <div class="container">
+        <div class="page-hero-content">
+          <span class="section-label">La nostra cucina</span>
+          <h1>Speisekarte</h1>
+          <p>Alle Gerichte werden frisch zubereitet – mit Liebe und den besten Zutaten aus Italien.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sticky Menu Navigation -->
+    <nav class="menu-nav" aria-label="Menüabschnitte">
+      <div class="menu-nav-inner">
+        <a href="#antipasti">Antipasti</a>
+        <a href="#primi">Primi Piatti</a>
+        <a href="#secondi">Secondi Piatti</a>
+        <a href="#dolci">Dolci</a>
+        <a href="#getraenke">Getränke</a>
+      </div>
+    </nav>
+
+    <div class="menu-page">
+      <div class="container">
+
+        <!-- ===== ANTIPASTI ===== -->
+        <section class="menu-section" id="antipasti" aria-labelledby="antipasti-heading">
+          <div class="menu-section-header reveal">
+            <span class="section-label">Vorspeisen</span>
+            <h2 id="antipasti-heading">
+              <span class="menu-icon" aria-hidden="true">🫒</span>
+              Antipasti
+            </h2>
+            <p>Der perfekte Einstieg in ein unvergessliches Mahl.</p>
+          </div>
+          <div class="menu-items">
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Bruschetta al Pomodoro</span>
+                <span class="menu-item-price">€ 7,50</span>
+              </div>
+              <p class="menu-item-desc">Geröstetes Ciabatta mit San-Marzano-Tomaten, frischem Basilikum, Knoblauch und nativem Olivenöl extra.</p>
+              <span class="menu-item-tag veg">Vegetarisch</span>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Caprese della Casa</span>
+                <span class="menu-item-price">€ 11,00</span>
+              </div>
+              <p class="menu-item-desc">Frischer Büffelmozzarella aus Kampanien, reife Flaschentomaten, Basilikum und Aceto Balsamico di Modena.</p>
+              <span class="menu-item-tag veg">Vegetarisch</span>
+            </div>
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Prosciutto e Melone</span>
+                <span class="menu-item-price">€ 12,50</span>
+              </div>
+              <p class="menu-item-desc">Hauchdünner Prosciutto di Parma 24 Monate gereift, mit frischer Cantaloup-Melone und Rucola.</p>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Antipasto Misto</span>
+                <span class="menu-item-price">€ 16,00</span>
+              </div>
+              <p class="menu-item-desc">Auswahl aus Aufschnitt, gegrilltem Gemüse, Oliven, Artischockenherzen und eingelegten Paprika. Für 2 Personen empfohlen.</p>
+            </div>
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Polpette al Sugo</span>
+                <span class="menu-item-price">€ 9,50</span>
+              </div>
+              <p class="menu-item-desc">Hausgemachte Fleischbällchen in aromatischer Tomatensauce mit Rosmarin und Parmesan.</p>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Cozze al Vino Bianco</span>
+                <span class="menu-item-price">€ 13,50</span>
+              </div>
+              <p class="menu-item-desc">Frische Miesmuscheln in Weißwein-Knoblauch-Sauce mit Petersilie und Crostini.</p>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ===== PRIMI PIATTI ===== -->
+        <section class="menu-section" id="primi" aria-labelledby="primi-heading">
+          <div class="menu-section-header reveal">
+            <span class="section-label">Erster Gang</span>
+            <h2 id="primi-heading">
+              <span class="menu-icon" aria-hidden="true">🍝</span>
+              Primi Piatti
+            </h2>
+            <p>Hausgemachte Pasta und Risotto – die Seele der italienischen Küche.</p>
+          </div>
+          <div class="menu-items">
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Spaghetti al Ragù di Nonna</span>
+                <span class="menu-item-price">€ 16,50</span>
+              </div>
+              <p class="menu-item-desc">Unser Signature-Gericht: langsam geschmortes Rindfleisch mit San-Marzano-Tomaten, Rotwein und frischem Basilikum.</p>
+              <span class="menu-item-tag">Hausrezept</span>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Tagliatelle al Tartufo</span>
+                <span class="menu-item-price">€ 22,00</span>
+              </div>
+              <p class="menu-item-desc">Frische Tagliatelle mit schwarzer Trüffelcreme, Butter, Parmesan und einem Hauch Trüffelöl.</p>
+            </div>
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Penne all'Arrabbiata</span>
+                <span class="menu-item-price">€ 13,50</span>
+              </div>
+              <p class="menu-item-desc">Rustikale Penne in feuriger Tomatensauce mit Knoblauch, Peperoncino und frischer Petersilie.</p>
+              <span class="menu-item-tag veg">Vegetarisch</span>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Risotto ai Funghi Porcini</span>
+                <span class="menu-item-price">€ 18,50</span>
+              </div>
+              <p class="menu-item-desc">Cremiges Carnaroli-Risotto mit getrockneten und frischen Steinpilzen, Parmigiano Reggiano und Thymian.</p>
+              <span class="menu-item-tag veg">Vegetarisch</span>
+            </div>
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Linguine alle Vongole</span>
+                <span class="menu-item-price">€ 19,50</span>
+              </div>
+              <p class="menu-item-desc">Linguine mit frischen Venusmuscheln, Weißwein, Knoblauch, Chili und Petersilie – ein Klassiker der neapolitanischen Küche.</p>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Gnocchi alla Sorrentina</span>
+                <span class="menu-item-price">€ 15,00</span>
+              </div>
+              <p class="menu-item-desc">Hausgemachte Kartoffelgnocchi mit Tomatensauce, Fior di Latte und frischem Basilikum, überbacken im Ofen.</p>
+              <span class="menu-item-tag veg">Vegetarisch</span>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ===== SECONDI PIATTI ===== -->
+        <section class="menu-section" id="secondi" aria-labelledby="secondi-heading">
+          <div class="menu-section-header reveal">
+            <span class="section-label">Hauptgericht</span>
+            <h2 id="secondi-heading">
+              <span class="menu-icon" aria-hidden="true">🥩</span>
+              Secondi Piatti
+            </h2>
+            <p>Fisch und Fleisch – sorgfältig ausgewählt und mit Hingabe zubereitet.</p>
+          </div>
+          <div class="menu-items">
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Branzino all'Acqua Pazza</span>
+                <span class="menu-item-price">€ 26,00</span>
+              </div>
+              <p class="menu-item-desc">Frischer Wolfsbarsch in Kirschtomaten-Weißwein-Sud mit Knoblauch, Kapern und Petersilie. Serviert mit Ciabatta.</p>
+              <span class="menu-item-tag">Signature</span>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Saltimbocca alla Romana</span>
+                <span class="menu-item-price">€ 24,00</span>
+              </div>
+              <p class="menu-item-desc">Zartes Kalbsschnitzel mit Prosciutto di Parma und frischem Salbei in Weißwein-Butter-Sauce. Ein Römer Klassiker.</p>
+            </div>
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Bistecca alla Fiorentina</span>
+                <span class="menu-item-price">€ 34,00</span>
+              </div>
+              <p class="menu-item-desc">T-Bone-Steak vom Chianina-Rind (500g), gegrillt auf dem offenen Feuer, mit Rosmarinkartoffeln und Rucola-Salat.</p>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Pollo alla Parmigiana</span>
+                <span class="menu-item-price">€ 19,00</span>
+              </div>
+              <p class="menu-item-desc">Paniertes Hähnchenbrustfilet mit Tomatensauce und geschmolzenem Mozzarella, überbacken im Ofen. Mit gemischtem Salat.</p>
+            </div>
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Gamberoni all'Aglio e Olio</span>
+                <span class="menu-item-price">€ 28,00</span>
+              </div>
+              <p class="menu-item-desc">Große Riesengarnelen in Knoblauch-Olivenöl-Sauce mit Chili, Petersilie und einem Spritzer Zitrone. Mit Crostini.</p>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Melanzane alla Parmigiana</span>
+                <span class="menu-item-price">€ 15,50</span>
+              </div>
+              <p class="menu-item-desc">Geschichtete Auberginen mit Tomatensauce, Mozzarella und Parmigiano Reggiano – knusprig überbacken. Vegetarischer Liebling.</p>
+              <span class="menu-item-tag veg">Vegetarisch</span>
+            </div>
+
+          </div>
+          <p style="margin-top: 1.5rem; font-size: 0.85rem; font-style: italic; text-align: center; color: var(--cream-muted);">
+            Alle Hauptgerichte werden nach Wahl mit Beilagen serviert. Bitte fragen Sie Ihr Servicepersonal.
+          </p>
+        </section>
+
+        <!-- ===== DOLCI ===== -->
+        <section class="menu-section" id="dolci" aria-labelledby="dolci-heading">
+          <div class="menu-section-header reveal">
+            <span class="section-label">Nachspeisen</span>
+            <h2 id="dolci-heading">
+              <span class="menu-icon" aria-hidden="true">🍮</span>
+              Dolci
+            </h2>
+            <p>La dolce vita endet mit einem süßen Finale.</p>
+          </div>
+          <div class="menu-items">
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Tiramisù della Casa</span>
+                <span class="menu-item-price">€ 8,50</span>
+              </div>
+              <p class="menu-item-desc">Marcos Original-Tiramisù mit Mascarpone, Savoiardi-Biskuits, Espresso und einem Hauch Marsala. Täglich frisch.</p>
+              <span class="menu-item-tag">Hausrezept · Vegetarisch</span>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Panna Cotta ai Frutti di Bosco</span>
+                <span class="menu-item-price">€ 7,50</span>
+              </div>
+              <p class="menu-item-desc">Cremige Vanille-Panna-Cotta mit frischem Waldbeeren-Coulis. Zart und unwiderstehlich.</p>
+              <span class="menu-item-tag veg">Vegetarisch</span>
+            </div>
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Cannoli Siciliani</span>
+                <span class="menu-item-price">€ 9,00</span>
+              </div>
+              <p class="menu-item-desc">Zwei knusprige Cannoli mit cremiger Ricotta-Füllung, Pistazienkruste und kandierten Orangenschalen.</p>
+              <span class="menu-item-tag veg">Vegetarisch</span>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Torta al Cioccolato Fondente</span>
+                <span class="menu-item-price">€ 8,00</span>
+              </div>
+              <p class="menu-item-desc">Warmer Schokoladenkuchen mit flüssigem Kern, Vanilleeis und gerösteten Haselnüssen. Glutenfrei auf Anfrage.</p>
+              <span class="menu-item-tag veg">Vegetarisch</span>
+            </div>
+
+            <div class="menu-item reveal">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Sorbetto al Limone</span>
+                <span class="menu-item-price">€ 6,00</span>
+              </div>
+              <p class="menu-item-desc">Hausgemachtes Zitronensorbet mit frischen Amalfi-Zitronen – leicht und erfrischend zum Abschluss.</p>
+              <span class="menu-item-tag veg">Vegan · Glutenfrei</span>
+            </div>
+
+            <div class="menu-item reveal reveal-delay-1">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Formaggio Misto</span>
+                <span class="menu-item-price">€ 12,00</span>
+              </div>
+              <p class="menu-item-desc">Auswahl italienischer Käsesorten mit Honig, Walnüssen und Feigensenf. Taleggio, Pecorino und Gorgonzola.</p>
+              <span class="menu-item-tag veg">Vegetarisch</span>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ===== GETRÄNKE ===== -->
+        <section class="menu-section" id="getraenke" aria-labelledby="getraenke-heading">
+          <div class="menu-section-header reveal">
+            <span class="section-label">Getränkekarte</span>
+            <h2 id="getraenke-heading">
+              <span class="menu-icon" aria-hidden="true">🍷</span>
+              Getränke
+            </h2>
+            <p>Erlesene Weine, klassische Aperitivi und alkoholfreie Begleiter.</p>
+          </div>
+
+          <div class="drinks-grid">
+
+            <!-- Weine -->
+            <div class="drinks-col reveal">
+              <h4>Weine &amp; Prosecco</h4>
+
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Prosecco DOC Treviso</span>
+                  <span class="drink-sub">Glas 0,1 l</span>
+                </div>
+                <span class="drink-price">€ 5,50</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Chianti Classico DOCG</span>
+                  <span class="drink-sub">Glas 0,2 l</span>
+                </div>
+                <span class="drink-price">€ 7,50</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Barolo DOCG</span>
+                  <span class="drink-sub">Glas 0,2 l</span>
+                </div>
+                <span class="drink-price">€ 10,00</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Pinot Grigio DOC</span>
+                  <span class="drink-sub">Glas 0,2 l</span>
+                </div>
+                <span class="drink-price">€ 7,00</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Amarone della Valpolicella</span>
+                  <span class="drink-sub">Glas 0,2 l</span>
+                </div>
+                <span class="drink-price">€ 12,00</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Carafe di Casa (Rot/Weiß)</span>
+                  <span class="drink-sub">0,5 l Karaffe</span>
+                </div>
+                <span class="drink-price">€ 14,00</span>
+              </div>
+            </div>
+
+            <!-- Aperitivi & Digestivi -->
+            <div class="drinks-col reveal reveal-delay-1">
+              <h4>Aperitivi &amp; Digestivi</h4>
+
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Aperol Spritz</span>
+                  <span class="drink-sub">Aperol, Prosecco, Soda</span>
+                </div>
+                <span class="drink-price">€ 8,50</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Negroni</span>
+                  <span class="drink-sub">Gin, Campari, Vermouth</span>
+                </div>
+                <span class="drink-price">€ 9,50</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Limoncello</span>
+                  <span class="drink-sub">aus dem Hause, 4 cl</span>
+                </div>
+                <span class="drink-price">€ 5,00</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Grappa di Barolo</span>
+                  <span class="drink-sub">4 cl</span>
+                </div>
+                <span class="drink-price">€ 6,50</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Amaro Montenegro</span>
+                  <span class="drink-sub">4 cl</span>
+                </div>
+                <span class="drink-price">€ 5,50</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Bellini</span>
+                  <span class="drink-sub">Pfirsichpüree, Prosecco</span>
+                </div>
+                <span class="drink-price">€ 9,00</span>
+              </div>
+            </div>
+
+            <!-- Alkoholfrei & Kaffee -->
+            <div class="drinks-col reveal reveal-delay-2">
+              <h4>Kaffee &amp; Alkoholfrei</h4>
+
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Espresso</span>
+                  <span class="drink-sub">aus der Faema-Maschine</span>
+                </div>
+                <span class="drink-price">€ 2,80</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Cappuccino</span>
+                  <span class="drink-sub">–</span>
+                </div>
+                <span class="drink-price">€ 3,80</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Acqua Minerale</span>
+                  <span class="drink-sub">still oder prickelnd, 0,75 l</span>
+                </div>
+                <span class="drink-price">€ 3,50</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Limonata artigianale</span>
+                  <span class="drink-sub">hausgemacht, 0,4 l</span>
+                </div>
+                <span class="drink-price">€ 4,80</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">San Bitter (alkoholfrei)</span>
+                  <span class="drink-sub">0,2 l Flasche</span>
+                </div>
+                <span class="drink-price">€ 3,80</span>
+              </div>
+              <div class="drink-item">
+                <div>
+                  <span class="drink-name">Succo di Frutta</span>
+                  <span class="drink-sub">Arancia / Pesca / Pomodoro</span>
+                </div>
+                <span class="drink-price">€ 3,50</span>
+              </div>
+            </div>
+
+          </div>
+
+          <p style="margin-top: 2.5rem; font-size: 0.82rem; font-style: italic; color: var(--cream-muted); opacity: 0.6;">
+            * Alle Preise inkl. MwSt. Unsere Speisekarte kann sich saisonal ändern. Bitte informieren Sie uns über Allergien oder Unverträglichkeiten.
+          </p>
+
+        </section>
+
+      </div>
+    </div>
+
+    <!-- Reservierung CTA -->
+    <section class="section--sm text-center" style="background: var(--bg-light);" aria-label="Tisch reservieren">
+      <div class="container">
+        <span class="section-label reveal">Ihr Abend wartet</span>
+        <h2 class="reveal" style="margin-bottom: 1rem;">Reservieren Sie Ihren Tisch</h2>
+        <p class="reveal" style="max-width: 520px; margin: 0 auto 2rem;">
+          Für ein unvergessliches Dinner – in gemütlicher Atmosphäre, mit echter Cucina italiana.
+        </p>
+        <a href="kontakt.html#reservierung" class="btn btn-primary reveal">Jetzt reservieren</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="brand-name">Trattoria da Marco</span>
+          <span class="brand-tagline">Cucina italiana – wie bei Nonna</span>
+          <p>
+            Authentische italienische Küche nach Familienrezepten aus Kampanien.
+            Herzlich willkommen in unserem Restaurant in München.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="speisekarte.html">Speisekarte</a></li>
+            <li><a href="kontakt.html">Kontakt &amp; Reservierung</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <address>
+            Via della Pasta 12<br />
+            80331 München<br /><br />
+            <a href="tel:+4989123456 78">089 123 456 78</a><br />
+            <a href="mailto:info@trattoria-da-marco.de">info@trattoria-da-marco.de</a>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Trattoria da Marco. Dies ist eine Beispiel-Website erstellt von <a href="https://webrisestudio.de">Webrise Studio</a>.</p>
+        <p><a href="#">Impressum</a> &nbsp;|&nbsp; <a href="#">Datenschutz</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
