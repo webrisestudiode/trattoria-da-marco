@@ -1266,3 +1266,30 @@ p:last-child { margin-bottom: 0; }
   .about-badge .badge-num { font-size: 1.4rem; }
   .reservation-form-wrap { padding: 1.5rem; }
 }
+
+
+/* ── Banner-Fix: Navbar immer über dem Banner ──────────────────── */
+.site-header,
+.navbar,
+nav.navbar,
+header.header,
+.header {
+  z-index: 100000 !important;
+}
+#personalized-banner {
+  z-index: 99998 !important;
+}
+@media (max-width: 768px) {
+  /* Logo umbrechen statt abschneiden */
+  .nav-logo,
+  .navbar__logo-name,
+  .logo,
+  .brand-name,
+  .brand-main,
+  .nav-brand {
+    white-space: normal !important;
+    word-break: break-word !important;
+    font-size: clamp(0.85rem, 3.5vw, 1.2rem) !important;
+    max-width: calc(100vw - 80px) !important;
+  }
+}
